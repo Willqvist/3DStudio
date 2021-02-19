@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\CMakeFiles\abf1d153ac9cc1a9bbf7c2b712fcad68\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{22114AF3-5C75-3D4A-99A0-5246BCE48705}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^C:\USERS\GERRY\DESKTOP\DATAVETENSKAP\DATAGRAFIK\GLPROJ\DEPENDENCIES\GLAD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gerry/Desktop/datavetenskap/datagrafik/glproj -BC:/Users/Gerry/Desktop/datavetenskap/datagrafik/glproj --check-stamp-file C:/Users/Gerry/Desktop/datavetenskap/datagrafik/glproj/Dependencies/GLAD/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

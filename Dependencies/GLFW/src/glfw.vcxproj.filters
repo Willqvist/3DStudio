@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\src\context.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\src\init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\src\input.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\src\monitor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\src\vulkan.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\src\window.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\src\win32_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\src\win32_joystick.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\src\win32_monitor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\src\win32_time.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\src\win32_thread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\src\win32_window.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\src\wgl_context.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\src\egl_context.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\src\osmesa_context.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\src\internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\src\mappings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\src\glfw_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\include\GLFW\glfw3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\include\GLFW\glfw3native.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\src\win32_platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\src\win32_joystick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\src\wgl_context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\src\egl_context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\src\osmesa_context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0970F789-E8F5-3B1A-8AE2-D560E9050DE7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2BDFCD42-6B5E-3CC5-8FA5-3524A0049DA0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

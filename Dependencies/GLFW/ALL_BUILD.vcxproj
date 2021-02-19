@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D90F4268-02D2-3732-B3D9-1F190495B1B4}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Gerry/Desktop/datavetenskap/datagrafik/glproj/Dependencies/GLFW/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gerry/Desktop/datavetenskap/datagrafik/glproj -BC:/Users/Gerry/Desktop/datavetenskap/datagrafik/glproj --check-stamp-file C:/Users/Gerry/Desktop/datavetenskap/datagrafik/glproj/Dependencies/GLFW/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.15\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\cmake_uninstall.cmake.in;C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\src\glfw3.pc.in;C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\src\glfw3Config.cmake.in;C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Gerry/Desktop/datavetenskap/datagrafik/glproj/Dependencies/GLFW/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gerry/Desktop/datavetenskap/datagrafik/glproj -BC:/Users/Gerry/Desktop/datavetenskap/datagrafik/glproj --check-stamp-file C:/Users/Gerry/Desktop/datavetenskap/datagrafik/glproj/Dependencies/GLFW/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.15\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\cmake_uninstall.cmake.in;C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\src\glfw3.pc.in;C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\src\glfw3Config.cmake.in;C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Gerry/Desktop/datavetenskap/datagrafik/glproj/Dependencies/GLFW/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gerry/Desktop/datavetenskap/datagrafik/glproj -BC:/Users/Gerry/Desktop/datavetenskap/datagrafik/glproj --check-stamp-file C:/Users/Gerry/Desktop/datavetenskap/datagrafik/glproj/Dependencies/GLFW/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.15\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\cmake_uninstall.cmake.in;C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\src\glfw3.pc.in;C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\src\glfw3Config.cmake.in;C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Gerry/Desktop/datavetenskap/datagrafik/glproj/Dependencies/GLFW/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gerry/Desktop/datavetenskap/datagrafik/glproj -BC:/Users/Gerry/Desktop/datavetenskap/datagrafik/glproj --check-stamp-file C:/Users/Gerry/Desktop/datavetenskap/datagrafik/glproj/Dependencies/GLFW/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.15\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\cmake_uninstall.cmake.in;C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\src\glfw3.pc.in;C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\src\glfw3Config.cmake.in;C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\ZERO_CHECK.vcxproj">
+      <Project>{F3700910-E67A-3A01-B581-B51D9BD85524}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\examples\boing.vcxproj">
+      <Project>{B9F2C726-6BF3-34BB-99D9-76ADAE236C4A}</Project>
+      <Name>boing</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\tests\clipboard.vcxproj">
+      <Project>{BBB3567D-1D50-3330-BBEC-7BA015C0CBD4}</Project>
+      <Name>clipboard</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\tests\cursor.vcxproj">
+      <Project>{625578C5-347D-31D6-9BA9-AD15CBF04F3D}</Project>
+      <Name>cursor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\tests\empty.vcxproj">
+      <Project>{0C196451-3D5D-308F-9746-AB48B7505C03}</Project>
+      <Name>empty</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\tests\events.vcxproj">
+      <Project>{6FA82F28-2171-304D-84A8-E896982FBCEB}</Project>
+      <Name>events</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\tests\gamma.vcxproj">
+      <Project>{3B0AA92A-C892-338B-8BE2-31C0B7874C3D}</Project>
+      <Name>gamma</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\examples\gears.vcxproj">
+      <Project>{9B205C32-1148-3045-83E2-4D726CD99AA4}</Project>
+      <Name>gears</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\src\glfw.vcxproj">
+      <Project>{49E2E211-1A4A-3537-A8DF-9759E7C9AFC2}</Project>
+      <Name>glfw</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\tests\glfwinfo.vcxproj">
+      <Project>{3F118128-DC67-350F-B36C-B450FB31EA63}</Project>
+      <Name>glfwinfo</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\examples\heightmap.vcxproj">
+      <Project>{70B7E1C4-DD99-37BE-809B-129E800BE8FF}</Project>
+      <Name>heightmap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\tests\icon.vcxproj">
+      <Project>{A6F7BDFD-6C84-35CE-826B-207264B1D105}</Project>
+      <Name>icon</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\tests\iconify.vcxproj">
+      <Project>{8013C5AA-E78C-31FB-A272-9C38BEFFA1DC}</Project>
+      <Name>iconify</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\tests\inputlag.vcxproj">
+      <Project>{22E025EB-6850-377C-840C-DE4B2F35EADD}</Project>
+      <Name>inputlag</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\tests\joysticks.vcxproj">
+      <Project>{4C1A8992-C8C9-3243-95D7-FEC23C7E6016}</Project>
+      <Name>joysticks</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\tests\monitors.vcxproj">
+      <Project>{B1458A0F-ABCB-33A4-99F8-C331B57DC0AC}</Project>
+      <Name>monitors</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\tests\msaa.vcxproj">
+      <Project>{7648ED02-8FE6-333E-8C2C-C9A2302918C0}</Project>
+      <Name>msaa</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\examples\offscreen.vcxproj">
+      <Project>{187E5C65-07AA-31B3-B368-38EB8810D167}</Project>
+      <Name>offscreen</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\tests\opacity.vcxproj">
+      <Project>{2F92AA9C-30D8-34BF-A465-3B1C56583E5E}</Project>
+      <Name>opacity</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\examples\particles.vcxproj">
+      <Project>{280E0125-4FB0-3F26-AC8D-BC9BD9D2193D}</Project>
+      <Name>particles</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\tests\reopen.vcxproj">
+      <Project>{162501AF-408E-3A2B-BC42-36C2577CE888}</Project>
+      <Name>reopen</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\examples\sharing.vcxproj">
+      <Project>{EEEFC38B-D4C4-3E99-A819-1A6BD4E7195F}</Project>
+      <Name>sharing</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\examples\simple.vcxproj">
+      <Project>{35BF92A4-32B1-385B-B885-CF16B1E7A631}</Project>
+      <Name>simple</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\examples\splitview.vcxproj">
+      <Project>{60F8F228-F4A1-3137-BB70-A000A1899F78}</Project>
+      <Name>splitview</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\tests\tearing.vcxproj">
+      <Project>{E5AF00D1-928E-3EA8-871D-51A241DC9F7D}</Project>
+      <Name>tearing</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\tests\threads.vcxproj">
+      <Project>{6361E24B-727C-3CDB-B728-CEF4AD8CE434}</Project>
+      <Name>threads</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\tests\timeout.vcxproj">
+      <Project>{3409B730-A79C-3598-A8C9-0CEC6F208640}</Project>
+      <Name>timeout</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\tests\title.vcxproj">
+      <Project>{E46E8063-E5E8-3992-94DD-059C46659E50}</Project>
+      <Name>title</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\tests\triangle-vulkan.vcxproj">
+      <Project>{1FE9ABFE-8E5B-3860-992E-60BD134CBF55}</Project>
+      <Name>triangle-vulkan</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\examples\wave.vcxproj">
+      <Project>{A3FC85FC-56E8-36A8-BD63-A1254896B8D9}</Project>
+      <Name>wave</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLFW\tests\windows.vcxproj">
+      <Project>{61A5C3F7-C64A-37C4-9133-26BA88DAB270}</Project>
+      <Name>windows</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

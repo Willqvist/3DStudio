@@ -1,0 +1,2 @@
+C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLAD\Debug\glad.pdb
+C:\Users\Gerry\Desktop\datavetenskap\datagrafik\glproj\Dependencies\GLAD\glad.dir\Debug\glad.pdb
